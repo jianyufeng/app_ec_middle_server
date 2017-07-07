@@ -1,0 +1,16 @@
+{
+  "name": "ec_web_server",
+  "description": "web商城接口层服务器",
+  "version": "0.0.1",
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "^1.15.1",
+    "cluster": "^0.7.7",
+    "express": "^4.13.4",
+    "formidable": "^1.0.17",
+    "log4js": "^0.6.36",
+    "mysql": "^2.10.2",
+    "redis": "^2.6.0-2",
+    "request": "^2.72.0"
+  }
+}
