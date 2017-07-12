@@ -66,6 +66,16 @@ exports.API = {
         }
     },
 
+    //显示用户注册页面
+    "_user/showRegister":{
+        method:'POST',
+        postMustParams:{
+            IS_OPEN_SHARE   :''
+        }
+
+    },
+
+
     //查询用户收获地址
     "/_user/searchUserAddress" : {
         method : 'GET',
